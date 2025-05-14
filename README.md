@@ -1,6 +1,6 @@
-# DSViper - Antivirus Evasion Tool
+# Sai AV Bypass - Antivirus Evasion Tool
 
-DSViper is a tool designed for educational and ethical security testing purposes. It implements various antivirus evasion techniques to help security professionals understand and test defense mechanisms.
+Sai AV Bypass is a tool designed for educational and ethical security testing purposes. It implements various antivirus evasion techniques to help security professionals understand and test defense mechanisms.
 
 ## Features
 
@@ -13,28 +13,20 @@ DSViper is a tool designed for educational and ethical security testing purposes
 - AppLocker bypass techniques
 - Indirect syscalls
 
-## Implementations
+## Implementation
 
-This repository contains both Python and C++ implementations of the DSViper tool, providing the same functionality in both languages.
+This repository contains a C++ implementation of the Sai AV Bypass tool.
 
 ## Usage
 
 **IMPORTANT**: This tool is intended for educational and ethical security testing purposes only. Use only in controlled lab environments with proper authorization.
 
-### Python Version
-
-```bash
-python DSViper.py
-```
-
-### C++ Version
-
 ```bash
 # Compile
-g++ -o DSViper DSViper.cpp -lcrypto
+g++ -o sai sai.cpp -lcrypto
 
 # Run
-./DSViper
+./sai
 ```
 
 ## Disclaimer
