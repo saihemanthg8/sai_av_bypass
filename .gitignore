@@ -1,0 +1,27 @@
+# Compiled files
+*.exe
+*.o
+*.obj
+*.out
+*.dll
+*.so
+*.dylib
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Temporary files
+*.bin
+*.res
+*.rc
+
+# OS specific files
+.DS_Store
+Thumbs.db
